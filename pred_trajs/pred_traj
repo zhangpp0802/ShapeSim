@@ -1,0 +1,21 @@
+<env type="pred_traj" name="pred_traj_virt">
+  <!-- Border -->
+  <border name="border">
+    <vertices>
+      <vertex>20.0,20.0</vertex>
+      <vertex>0.0,20.0</vertex>
+      <vertex>0.0,0.0</vertex>
+      <vertex>20.0,0.0</vertex>
+    </vertices>
+    <vertex type="center">0.0,0.0</vertex>
+  </border>
+  <!-- Trajectory points in 2D map-->
+  <traj type="static" name="traj">
+    <vertices>
+        <vertex>4.5, 4.5</vertex>
+        <vertex>2.5, 4.5</vertex>
+        <vertex>2.5, 2.5</vertex>
+        <vertex>4.5, 2.5</vertex>
+    </vertices>
+  </traj>
+</env>
